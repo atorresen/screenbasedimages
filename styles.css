@@ -1,0 +1,32 @@
+body {
+  background-color: #222;
+  color: #888;
+  font-family: monospace;
+  margin: 100px;
+  font-family: "Major Mono Display", monospace;
+}
+
+h1, h2, h3 {
+  color: #ddd;
+}
+
+section {
+  margin: auto;
+  margin-left: 5%;
+}
+
+button {
+  font-family: "Major Mono Display", monospace;
+  font-size: 1.5rem;
+}
+
+.column {
+  float: left;
+  display: block;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
