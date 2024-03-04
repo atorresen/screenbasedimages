@@ -1,9 +1,8 @@
 body {
   background-color: #002;
   color: #eee;
-  font-family: monospace;
-  margin: 100px;
   font-family: "Major Mono Display", monospace;
+  margin: 100px;
 }
 
 h1, h2, h3 {
@@ -23,6 +22,10 @@ button {
   border-width: 4px;
   border-image:linear-gradient(0deg,#00e,40%,#00a 0) 10;
   padding: 5px 10px;
+}
+
+button:hover {
+  border-image:linear-gradient(0deg,#ace,40%,#00a 0) 10;
 }
 
 .navbutton {
