@@ -11,17 +11,20 @@ var penplotQ = false; //1 button
 var posterQ = true; //2 button
 var scanQ = false; //3 button
 
+var onColor = "background-color: #ddd;";
+var offColor = "background-color: #333;";
+
 // button clicks toggle which columns to show
 function toggleCols(colNum) {
   colButton = document.getElementById("col" + colNum);
   if (colNum == 1) {
-    if(penplotQ) {colButton.style = "background-color: #333;"} else {colButton.style = "background-color: #ddd;"};
+    if(penplotQ) {colButton.style = offColor} else {colButton.style = onColor};
     penplotQ = !penplotQ;
   } else if (colNum == 2) {
-    if(posterQ) {colButton.style = "background-color: #333;"} else {colButton.style = "background-color: #ddd;"};
+    if(posterQ) {colButton.style = offColor} else {colButton.style = onColor};
     posterQ = !posterQ
   } else {
-    if(scanQ) {colButton.style = "background-color: #333;"} else {colButton.style = "background-color: #ddd;"};
+    if(scanQ) {colButton.style = offColor} else {colButton.style = onColor};
     scanQ = !scanQ
   };
   numCols = [penplotQ, posterQ, scanQ].filter(Boolean).length;
