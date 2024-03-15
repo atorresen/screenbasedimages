@@ -47,3 +47,8 @@ button:hover {
   clear: both;
   display: table;
 }
+
+img, table {
+  width: 70%;
+  margin: 20px 0;
+}
