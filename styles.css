@@ -9,6 +9,16 @@ h1, h2, h3 {
   color: #00e;
 }
 
+.about {
+  color: yellow;
+}
+
+a {
+  color: white;
+  text-decoration: underline #ace;
+  text-decoration-thickness: 4%;
+}
+
 p {
   font-size: 0.8rem;
 }
