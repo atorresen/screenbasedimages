@@ -72,3 +72,12 @@ table, img {
   width: 90%;
   margin: 20px 0;
 }
+
+.reflection {
+  width: 90%;
+  color: #333;
+}
+
+.reflection:hover {
+  color: #ddd;
+}

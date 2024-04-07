@@ -16,6 +16,7 @@
 
 <body>
   <div class="column"><a href="index.html"><button class="navbutton"><</button></a></div>
+
   <section>
     <div class="row">
       <button id="col1" style="background-color: #333;" onclick="toggleCols(1)">1</button>
@@ -23,6 +24,15 @@
       <button id="col3" style="background-color: #333;" onclick="toggleCols(3)">3</button>
     </div>
   </section>
+
+  <br><br>
+  <div class="reflection">
+    <p>
+      I used this project on "surfaces" to explore dimensionality. Each scan represents a 3D object, eac posterized image represents a 2D surface, and each pen plot represents a 1D line. Each of these representations, then, is viewed via the 2D surface of a screen (or piece of paper).
+      As I worked on this project, I wondered about the relationship between the dimensionality of an object and the dimensionality of the space in which that object is viewed. Despite the definition of a surface as a 2D object, I intuitively think of a surface in three dimensions, perhaps since my first association is to 3D plots of surfaces from multivariable Calculus. We add a third dimension to the plots to fully see the behavior of the 2D surface, just as we add a second dimension (y-axis) to the plot of a curve or line and add a single dimension (number line) to the plot of a 0D point. The "surface" is a 2-dimensional medium through which we can imagine worlds one dimension removed.
+    </p>
+  </div>
+
   <script>
     makeScanSections([false, true, false])
   </script>
