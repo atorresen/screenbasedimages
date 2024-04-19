@@ -13,6 +13,10 @@ h1, h2, h3 {
   color: yellow;
 }
 
+.plainFont {
+  font-family: 'Menlo', sans-serif;
+}
+
 a {
   color: white;
   text-decoration: underline #ace;
@@ -51,6 +55,16 @@ button:hover {
 .navbutton {
   background-color: #00a !important;
   color: #eee;
+}
+
+.doorbutton {
+  background-color: #91FC18 !important;
+  color: #222;
+  border-image: linear-gradient(0deg, #0a0, 40%, #0e0 0) 10;
+}
+
+.doorbutton:hover {
+  border-image: linear-gradient(0deg, #aec, 40%, #0e0 0) 10;
 }
 
 .soonbutton {
