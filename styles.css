@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 
 .plainFont {
-  font-family: 'Menlo', monospace;
+  font-family: 'Menlo', 'Andale Mono', monospace;
 }
 
 a {
@@ -90,6 +90,13 @@ table, img {
 .reflection {
   width: 90%;
   color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+  .reflection {
+    color: #ace;
+    font-family: 'Menlo', monospace;
+  }
 }
 
 .reflection:hover {
