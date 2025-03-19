@@ -92,13 +92,7 @@ table, img {
   color: #333;
 }
 
-@media only screen and (max-width: 600px) {
-  .reflection {
-    color: #ace;
-    font-family: 'Menlo', monospace;
-  }
-}
-
-.reflection:hover {
-  color: #ddd;
+.reflection {
+  color: #68b;
+  font-family: 'Menlo', monospace;
 }
